@@ -1,0 +1,25 @@
+{
+  "name": "ebay-active-listing-backup",
+  "version": "1.0.0",
+  "description": "A scraper to backup a users active listings into a json readable format",
+  "main": "index.js",
+  "scripts": {
+    "start": "./node_modules/.bin/cypress run --headed"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uzair-ashraf/ebay-active-listing-backup.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/uzair-ashraf/ebay-active-listing-backup/issues"
+  },
+  "homepage": "https://github.com/uzair-ashraf/ebay-active-listing-backup#readme",
+  "dependencies": {
+    "cypress": "^6.1.0",
+    "cypress-downloadfile": "^1.2.0",
+    "dotenv": "^8.2.0"
+  }
+}
